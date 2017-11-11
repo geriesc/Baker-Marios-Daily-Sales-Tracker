@@ -1,27 +1,92 @@
-.container {
-  width: 25%;
-  float: left;
-  padding: 15px;
-  border: 20px solid #020202;
+/* h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
 }
 
 .header {
-  
   padding: 15px;
+} */
+
+/* .logo {
+  background-image: url('https://image.ibb.co/ckwdXb/Marios_Daily_Tracker.png'); 
+} */
+@import url('https://fonts.googleapis.com/css?family=Trocchi');
+
+
+.jumbotron {
+background-color: #6d7973;  
+}
+
+body {
+background-color: #3F3931;
+}
+
+.footer {
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #6d7973;
+  color: white;
+  text-align: center;
+  font-family: 'Trocchi', serif;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-family: 'Trocchi', serif;
+}
+.input {
+  margin-bottom: 25px;
+}
+
+hr.style-one {
+  border: 0;
+  height: 1.5px;
+  background: #333;
+}
+
+.list-unstyled {
+  width: 75%;
+  float: left;
+  padding: 15px 10px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  margin-left: 100px;
+  border: 20px solid #e5dace;
+} 
+
+.transaction-history-table {
+  width: 75%;
+  float: right;
+  padding: 15px 20px 50px 100px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  margin-left: 100px;
+  background-color: #B2B2A2;
+  border: 20px solid #B2B2A2;
+  color: #ffffff;
+  font-family: 'Trocchi', serif;
 }
 
 .container button {
   background: #3b521c;
-  background-image: -webkit-linear-gradient(top, #3b521c, #789e11);
-  background-image: -moz-linear-gradient(top, #3b521c, #789e11);
-  background-image: -ms-linear-gradient(top, #3b521c, #789e11);
-  background-image: -o-linear-gradient(top, #3b521c, #789e11);
-  background-image: linear-gradient(to bottom, #3b521c, #789e11);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
+  background-image: -webkit-linear-gradient(top, #E7BAA0, #E7BAA0);
+  background-image: -moz-linear-gradient(top, #E7BAA0, #E7BAA0);
+  background-image: -ms-linear-gradient(top, #E7BAA0, #E7BAA0);
+  background-image: -o-linear-gradient(top, #E7BAA0, #E7BAA0);
+  background-image: linear-gradient(to bottom, #E7BAA0, #E7BAA0);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-right: 80px;
+  margin-left: 80px;
   text-shadow: 1px 1px 3px #666666;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Trocchi', serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -30,10 +95,10 @@
 
 .container button:hover {
   background: #e7ecf0;
-  background-image: -webkit-linear-gradient(top, #e7ecf0, #822f3a);
-  background-image: -moz-linear-gradient(top, #e7ecf0, #822f3a);
-  background-image: -ms-linear-gradient(top, #e7ecf0, #822f3a);
-  background-image: -o-linear-gradient(top, #e7ecf0, #822f3a);
-  background-image: linear-gradient(to bottom, #e7ecf0, #822f3a);
+  background-image: -webkit-linear-gradient(top, #D39FA6, #E9DCCD);
+  background-image: -moz-linear-gradient(top, #D39FA6, #E9DCCD);
+  background-image: -ms-linear-gradient(top, #D39FA6, #E9DCCD);
+  background-image: -o-linear-gradient(top, #D39FA6, #E9DCCD);
+  background-image: linear-gradient(to bottom, #D39FA6, #E9DCCD);
   text-decoration: none;
 }

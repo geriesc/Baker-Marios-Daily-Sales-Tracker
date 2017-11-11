@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 
-class TransactionForm extends Component {
 
+class TransactionForm extends Component {
 state = {
     name: "",
     amount: 0,
@@ -33,13 +33,20 @@ save = () => {
         console.log('render')
         return (
             <div>
-                <input value={this.state.name} onChange={this.setName} type="text" placeholder="Customer Name"/>
-                <input value={this.state.amount} onChange={this.setAmount} type="number" placeholder="Amount"/>
-                <input value={this.state.order} onChange={this.setOrder} type="text" placeholder="Order"/>
-                <button onClick={this.save}>
+                <ul className="list-unstyled">
+                <h2> Input Info.</h2>
+                <br />
+                <li><input className="form-control input" value={this.state.name} onChange={this.setName} type="text" placeholder="Customer Name"/></li>
+                <li><input className="form-control input" value={this.state.amount} onChange={this.setAmount} type="number" placeholder="Amount"/></li>
+                <li><input className="form-control input" value={this.state.order} onChange={this.setOrder} type="text" placeholder="Order"/></li>
+                <br />
+                
+                <button  onClick={this.save}>
                     Add Transaction
                     </button>
+                    </ul>
                 </div>
+            
         )
     }
 }
